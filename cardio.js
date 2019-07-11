@@ -1,19 +1,13 @@
 
 // LONGEST WORD
  function longestWord(sen) {
-     // Create filtered array.
+   
      const wordarr = sen.toLowerCase().match(/[a-z0-9]*/g);
-    //  STORED
+  
     const sorted = wordarr.sort( (a,b) => b.length - a.length );
-    /* Sort it based on if the word does equal
-        to the sorted first index ( the sorted longest word in the array ) 
-        
-    */
+
         const longestwordarray = sorted.filter( word =>  word.length === sorted[0].length )
-    // you see undefined if you didn't return it
-    // Check if more than one array value 
-    // because we just checked if the filter array 
-    // has more than one single strictly else
+
     if(longestwordarray.length === 1) {
         return longestwordarray[0]
     } else {
@@ -21,7 +15,7 @@
     }
  }
 
- //  CHUNK ARRAY
+
  function chunkArray(arr, length)
  {
 //      // Init
