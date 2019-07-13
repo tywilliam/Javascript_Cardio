@@ -30,3 +30,9 @@
       [1,2,3,4,5,6] .slice(0,1) => [1]. (It wouldn't return [1,2])
       [1,2,3,4,5,6] .slice(0,2) => [1,2]
       [1,2,3,4,5,6] .slice(0,3) => [1,2,3] (It wouldnt return [1,2,3,4])
+      
+## Flatten array
+    Flatten a chunked array by conjoining them together
+    this is easy
+    1. Take input as arguments from an array 
+    2. Loop through each index using .forEach and conjoining each array with .concat to an empty array.
