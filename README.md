@@ -33,13 +33,15 @@
       
 ## Flatten array
     Flatten a chunked array by conjoining them together
-    this is easy
+   
     1. Take input as arguments from an array 
     2. Loop through each index using .forEach and conjoining each array with .concat to an empty array.
-## Anagram
+## Anagram 
+    Words that match in whatever sequence. elbow and below, tard, dart
     1. Remove numbers
     2. Make lowercase all letters
     3. Split the string into an array
     4. Use .sort to sort the characters default by utf-16. A comes before Z.
     5. Use .join to join the array to a string.
 ## Letter Changes
+    Change every letter that follows it and capitalize the vowel.
