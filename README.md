@@ -42,3 +42,4 @@
     3. Split the string into an array
     4. Use .sort to sort the characters default by utf-16. A comes before Z.
     5. Use .join to join the array to a string.
+## Letter Changes
