@@ -45,3 +45,7 @@
     5. Use .join to join the array to a string.
 ## Letter Changes
     Change every letter that follows it and capitalize the vowel.
+    1. Accept a string
+    2. Lowercase the string and accept only letter no numbers
+    3. Check for lowercase z and uppercase Z and replace with a lowercase 'a'
+    4. Find vowels
