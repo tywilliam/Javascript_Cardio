@@ -52,3 +52,5 @@
     3. Check for lowercase z and uppercase Z and replace with a lowercase 'a'
     4. Find vowels and uppercase each of them
     5. Return new string
+    
+A total of 5 challenges.
